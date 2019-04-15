@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
 
-grilleNormal, grilleEtageres = chargerGrilles("map_32x32.txt")
+grilleNormal, grilleEtageres = chargerGrilles("maps/map_32x32.txt")
 nRobots = 10
 listeRobotID = [i for i in range(1, nRobots+1)]
 listeDeparts = [Vec2d(randomCase(grilleNormal)) for i in range(1, nRobots+1)]
