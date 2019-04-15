@@ -12,7 +12,7 @@ def chargerGrilles(fichier):
                 grilleNormal[x, y] = True
                 grilleEtageres[x, y] = True
             elif strArray[y, x] == '=': # '=' pour une étagère
-                grilleNormal[x, y] = True
+                grilleEtageres[x, y] = True
 
     return (grilleNormal, grilleEtageres)
 
